@@ -1,0 +1,9 @@
+.parent-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.child-div0 {
+  grid-column: span 3;
+}
