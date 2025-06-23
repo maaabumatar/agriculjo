@@ -120,4 +120,5 @@ def home():
         charts.append(chart)
     return render_template('index.html', charts=charts, charts_length=len(charts))
 
-app.run()
+if __name__ == '__main__':
+    app.run()
