@@ -41,9 +41,15 @@
     </script>
 
     <div class="parent-div">
-      {% for c in range(charts_length) %}
-      <div class="child-div{{ c % 4 }}" id="chart{{ c }}"></div>
+      {% for c in range(charts_length - 3) %}
+      <div
+        class="child-div{{ c % (charts_length - 2 - 1) }}"
+        id="chart{{ c }}"
+      ></div>
       {% endfor %}
+      <div class="child-div0" id="chart{{ charts_length - 3 }}"></div>
+      <div class="child-div0" id="chart{{ charts_length - 2 }}"></div>
+      <div class="child-div0" id="chart{{ charts_length - 1 }}"></div>
     </div>
 
     <script src="{{ url_for('static', filename='/scripts/script.js')}}"></script>
