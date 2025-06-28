@@ -41,7 +41,7 @@ class line(Chart):
 
 def list_files() -> list[str]:
     files = os.listdir('data')
-    return files
+    return sorted(files)
 
 def cleanse_df(df: pd.DataFrame) -> pd.DataFrame:
     df['Crop'] = df['Crop'].str.replace('-','')
