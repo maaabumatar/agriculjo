@@ -28,7 +28,15 @@
 
 ## 🗂 Project Structure
 
-agriculjo/ ├── data/ # CSVs per year ├── static/ │ ├── styles.css │ └── script.js ├── templates/ │ └── index.html ├── app.py └── README.md
+agriculjo/
+├── data/
+├── static/
+│ ├── styles.css
+│ └── script.js
+├── templates/
+│ └── index.html
+├── app.py
+└── README.md
 
 ## 🚀 Live Demo
 
