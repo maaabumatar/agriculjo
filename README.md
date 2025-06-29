@@ -31,8 +31,10 @@
 agriculjo/
 ├── data/
 ├── static/
-│ ├── styles.css
-│ └── script.js
+│ ├── css/
+| | └──styles.css
+│ └── scripts/
+|   └──script.js
 ├── templates/
 │ └── index.html
 ├── app.py
