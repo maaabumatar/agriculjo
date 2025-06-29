@@ -18,7 +18,7 @@
 
 - Highcharts renders production trends across 27 crop types by year and season.
 - JavaScript dynamically builds the charts from Python-passed configs.
-- Custom styles are handled in `/static/styles.css`.
+- Styles and scripts are handled in `/static/css/styles.css` and `/static/scripts/script.js`.
 
 ## 📈 Predictive Insight Included
 
@@ -28,21 +28,23 @@
 
 ## 🗂 Project Structure
 
+```
 agriculjo/
-├── data/
+├── data/                   # CSVs per year
 ├── static/
-│ ├── css/
-| | └──styles.css
-│ └── scripts/
-|   └──script.js
+│   ├── css/
+│   │   └── styles.css
+│   └── scripts/
+│       └── script.js
 ├── templates/
-│ └── index.html
+│   └── index.html
 ├── app.py
 └── README.md
+```
 
 ## 🚀 Live Demo
 
-**🔗** https://agriculjo.onrender.com  
+🔗 https://agriculjo.onrender.com  
 _Note: may take a minute to load if inactive._
 
 ## 📁 Source Code
